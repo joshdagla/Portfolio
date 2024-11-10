@@ -1,0 +1,32 @@
+/* Profile picture styling */
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Adjust header styling to accommodate profile picture */
+header {
+    background: #333;
+    color: #fff;
+    padding: 2em 0 1em 100px; /* Adjust padding to fit profile picture */
+    text-align: center;
+    position: relative;
+}
+
+/* New Skills section styling */
+#skills {
+    background-color: #e2e2e2;
+    padding: 2em 1em;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#skills p {
+    font-size: 1.1em;
+    color: #333;
+}
